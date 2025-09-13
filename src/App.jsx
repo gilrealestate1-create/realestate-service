@@ -29,6 +29,8 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
       <p>Test 1 2 3</p>
+      <p>Test 1 2 3</p>
+      <p>Test 1 2 3</p>
     </>
   )
 }
