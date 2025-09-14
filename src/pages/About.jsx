@@ -6,6 +6,7 @@ export default function About() {
         We are dedicated real-estate professionals focused on helping clients buy, sell, and rent homes with confidence.
         Our mission is to provide data-driven guidance, sharp negotiation, and attentive service.
       </p>
+      <img src="/realestate-service/images/portrait.png" alt="Modern house" />
     </section>
   )
 }
