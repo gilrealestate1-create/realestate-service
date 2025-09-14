@@ -7,9 +7,9 @@ const slides = [
 ]
 
 export default function Home() {
-    return (
-        <section className="home">
-            <Carousel slides={slides} interval={6000} />
-        </section>
-    )
+  return (
+    <section className="home">
+      <Carousel slides={slides} interval={6000} />
+    </section>
+  )
 }
