@@ -1,10 +1,10 @@
-
+import { Link, NavLink } from 'react-router-dom'
 
 
 export default function Header() {
     return (
         <div className="site-header">
-            <div className="container left">
+            <div className="container inner">
                 <Link to="/" className="brand">
                     real-estate services
                 </Link>
