@@ -1,0 +1,59 @@
+/* 整个头部 */
+.site-header {
+  background: #ffffff;
+  padding: 0.75rem 1.5rem;
+  /* 去掉所有边框 */
+  border: none;
+  box-shadow: none;
+}
+
+/* 内部布局：左右分布 */
+.container.inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* 左边品牌：大、粗 */
+.brand {
+  font-size: 1.75rem;   /* 更大 */
+  font-weight: 800;     /* 粗体 */
+  color: #111827;
+  text-decoration: none;
+}
+
+/* 右边导航整体 */
+.nav {
+  display: flex;
+  gap: 1rem; /* 每个链接之间间隔 */
+}
+
+/* 普通导航链接 */
+.nav a {
+  text-decoration: none;
+  color: #374151;   /* 深灰 */
+  font-size: 1rem;
+  padding: 0.4rem 0.6rem;
+  border-radius: 0.375rem;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.nav a:hover {
+  background: #f3f4f6; /* hover 浅灰背景 */
+}
+
+/* Contact Us 蓝色方形按钮 */
+.nav a:last-child {
+  background: #2563eb;   /* 蓝底 */
+  color: #ffffff;        /* 白字 */
+  font-weight: 600;
+  padding: 0.6rem 1.2rem; /* 方形感（左右和上下 padding 接近） */
+  border-radius: 0.375rem;
+  border: none;          /* 无边框 */
+  display: inline-block;
+  text-align: center;
+}
+
+.nav a:last-child:hover {
+  background: #1d4ed8;   /* hover 深蓝 */
+}

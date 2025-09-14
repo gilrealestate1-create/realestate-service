@@ -1,9 +1,22 @@
+// src/pages/Home.jsx
 import Carousel from '../components/Carousel.jsx'
 
 const slides = [
-  { src: '/images/slide1.svg', alt: 'Professional Real Estate Services — Trusted agent for buying, selling, and renting homes.' },
-  { src: '/images/slide2.svg', alt: 'Buy or Sell Homes — Skilled negotiation to achieve the best prices for your property.' },
-  { src: '/images/slide3.svg', alt: 'Owner & Renter Services — Professional home management and leasing.' }
+  {
+    // backyard + green grass + bbq（接近主题的占位）
+    src: "/images/slide1.png",
+    alt: 'Backyard with green grass and BBQ grill'
+  },
+  {
+    // house / negotiation（占位）
+    src: '/images/slide2.png',
+    alt: 'Buy or Sell Homes — negotiation and planning'
+  },
+  {
+    // home maintenance（占位）
+    src: '/images/slide3.png',
+    alt: 'Owner & Renter Services — maintenance and repairs'
+  }
 ]
 
 export default function Home() {
